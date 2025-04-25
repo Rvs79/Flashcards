@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: pink;
+}
+
+header{
+    background-color: rgb(218, 110, 8);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(41, 41, 41);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+main a{
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 12px;
+    margin: 10px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.3rem;
+}
+main a:hover{
+    background-color: rgb(218, 110, 8);
+    color: white;
+    transform: scale(1.01);
+}
+
+
+footer{
+    background-color: whitesmoke;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 30px;
+    font-size: 1.6em;
+    color: white;
+}
+header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.02);
+    font-weight: bold;
+}
+
+@media (max-width: 508px){
+    header h1{
+        font-size: 1.2em;
+    }
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+}
+
+#logo-github{
+    width: 20px;
+    margin-bottom: 2px;
+}
+
+#logo-linkedin{
+    width: 30px;
+}
+
+footer a:hover{
+    background-color: white;
+    border-radius: 5px;
+}

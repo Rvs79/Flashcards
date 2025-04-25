@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#center{
+    width: 800px;
+    height: 800px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#img-card{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 245, 255);
+    border-radius: 19px;
+}
+
+#buttons-card{
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 245, 255);
+    border-radius: 19px;
+}
+
+button{
+    margin: 4px;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+#virar{
+    width: 60px;
+}
+
+img{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+#retornar{
+    height: 6%;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#retornar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+#retornar a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transform: scale(1.01);
+}
+
+#buttons-card button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: scale(1.05);
+    border: 1px solid white;
+}
