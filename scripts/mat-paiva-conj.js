@@ -1,19 +1,19 @@
-var cards_frente = [];
-var caminho_frente = "cards/mat-paiva-pt1/Exercicios/";
-
+//Lista de cards frente
+var cards_frente = []; //Lista sem limite especificado
+var caminho_frente = "cards/mat-paiva-pt1/Exercicios/"; //caminho onde estao as imagens - frente
+// enquanto o contador i for menor ou igual a 41(numero de cards), a lista cards_frente recebe no final da lista(.push) o caminho + contador(identificar numero do card + png(tipo do arquivo)
 for (var i = 1; i <= 41; i++){
     cards_frente.push(caminho_frente + i + ".png");
 }
-
-var cards_verso = [];
-var caminho_verso = "cards/mat-paiva-pt1/Respostas/";
-
+//Lista de cards verso
+var cards_verso = []; //Lista sem limite especificado
+var caminho_verso = "cards/mat-paiva-pt1/Respostas/"; //caminho onde estao as imagens - verso
+// enquanto o contador i for menor ou igual a 41(numero de cards), a lista cards_verso recebe no final da lista(.push) o caminho + contador(identificar numero do card + png(tipo do arquivo)
 for(var i = 1; i <= 41; i++){
     cards_verso.push(caminho_verso + i + ".png");
 }
 
-
-var imgAtual = cards_frente[contador];
+var imgAtual = cards_frente[contador]; //imagem atual = cards_frente[índice do array]
 var imtAnterior;
 var contador = 0;
 let mostrando_frente = true;
