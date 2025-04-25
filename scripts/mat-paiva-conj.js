@@ -1,12 +1,12 @@
 var cards_frente = [];
-var caminho_frente = "../cards/mat-paiva-pt1/Exercicios/";
+var caminho_frente = "cards/mat-paiva-pt1/Exercicios/";
 
 for (var i = 1; i <= 41; i++){
     cards_frente.push(caminho_frente + i + ".png");
 }
 
 var cards_verso = [];
-var caminho_verso = "../cards/mat-paiva-pt1/Respostas/";
+var caminho_verso = "cards/mat-paiva-pt1/Respostas/";
 
 for(var i = 1; i <= 41; i++){
     cards_verso.push(caminho_verso + i + ".png");
