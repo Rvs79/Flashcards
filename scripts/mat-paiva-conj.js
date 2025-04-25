@@ -13,7 +13,6 @@ for(var i = 1; i <= 41; i++){
     cards_verso.push(caminho_verso + i + ".png");
 }
 
-var imgAtual = cards_frente[contador]; //imagem atual = cards_frente[índice do array]
 var imtAnterior;
 var contador = 0;
 let mostrando_frente = true;
